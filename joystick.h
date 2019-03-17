@@ -4,6 +4,8 @@
 #define LTHRES 800
 #define RTHRES 50
 
+// These functions was found on http://maxembedded.com/2011/06/the-adc-of-the-avr/
+
 void adc_init()
 {
 	// AREF = AVcc
